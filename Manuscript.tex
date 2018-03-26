@@ -1,0 +1,174 @@
+\documentclass[oneside,a4paper]{Nature}
+
+\bibliographystyle{naturemag}
+
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{parskip}
+\usepackage{float}
+\usepackage{microtype}
+\usepackage{url}
+\usepackage[hidelinks=true]{hyperref}
+\usepackage{longtable}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{array}
+\usepackage[labelfont=bf,labelsep=period,skip=10pt,font=footnotesize]{caption}
+\usepackage{amsmath}
+\usepackage{authblk}
+\usepackage{ulem}
+\usepackage{booktabs}
+\usepackage{lineno}
+\usepackage{xr}
+\usepackage{multicol}
+\usepackage[outercaption]{sidecap} 
+
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\textfraction}{0.1}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\renewcommand{\arraystretch}{0.5}
+\normalem
+% \linespread{1.5} % for the main text
+
+\title{XXXX}
+
+% authors
+\author [1,2,$\ast$]{Simon Dellicour}
+\author [1]{Philippe Lemey}
+\author [2]{Jean Artois}
+\author [x]{XXXX}
+\author [4,5,6]{Marc A.~Suchard}
+\author [1]{Guy Baele}
+\author [2]{Marius Gilbert}
+
+% affiliations
+\affil [1]{\footnotesize{Department of Microbiology and Immunology, Rega Institute, KU Leuven — University of Leuven, Herestraat 49, 3000 Leuven, Belgium}}
+\affil [2]{Spatial Epidemiology Lab (SpELL), Universit√© Libre de Bruxelles, CP160/12 50, av FD Roosevelt, B-1050 Brussels, Belgium.}
+\affil [3]{Department of Zoology, University of Oxford, Oxford OX1 3PS, United Kingdom}
+\affil [4]{Department of Biostatistics, UCLA Fielding School of Public Health, University of California, Los Angeles, CA, USA}
+\affil [5]{Department of Biomathematics David Geffen School of Medicine at UCLA, University of California, Los Angeles, CA, USA}
+\affil [6]{Department of Human Genetics, David Geffen School of Medicine at UCLA, University of California, Los Angeles, CA, USA}
+
+\begin{document}
+
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{page}{1}
+
+\maketitle
+
+$\ast$\footnotesize{Corresponding author (simon.dellicour@kuleuven.be)}
+
+%\linenumbers
+%\linespread{1.5} % for the figure captions
+%\newpage
+%\pagebreak
+
+\vspace{23pt} % adjustment for the two columns layout
+\begin{abstract}
+\small{XXXX}
+\end{abstract}
+\subsection{\small{\\Keywords: XXXX.}}
+
+\subsection{\\}
+\small{
+
+XXXX
+
+} %end of "\small{"
+
+\section*{RESULTS}
+\vspace{-3pt}
+\small{
+
+XXXX
+
+\begin{figure*}[h]
+%\begin{figure}[H]
+%\centering
+	\includegraphics[width=1\textwidth]{Figure_1.pdf}
+	\caption{\scriptsize{\textbf{XXXX.}
+XXXX}}
+\label{Figure1}
+\end{figure*}
+
+\begin{figure*}[h]
+%\begin{figure}[H]
+%\centering
+	\includegraphics[width=1\textwidth]{Figure_2.pdf}
+	\caption{\scriptsize{\textbf{XXXX.}
+XXXX}}
+\label{Figure2}
+\end{figure*}
+
+\begin{SCfigure}[][h]
+\includegraphics[width=0.5\textwidth]{Figure_3.pdf}
+	\caption{\scriptsize{\textbf{XXXX.}
+XXXX.}}
+\label{Figure3}
+\end{SCfigure}
+
+\begin{figure*}[h]
+%\begin{figure}[H]
+%\centering
+	\includegraphics[width=1\textwidth]{Figure_4.pdf}
+	\caption{\scriptsize{\textbf{XXXX.}
+XXXX}}
+\label{Figure4}
+\end{figure*}
+
+\begin{figure*}[h]
+%\begin{figure}[H]
+%\centering
+	\includegraphics[width=1\textwidth]{Figure_5.pdf}
+	\caption{\scriptsize{\textbf{XXXX.}
+XXXX}}
+\label{Figure5}
+\end{figure*}
+
+} %end of "\small{"
+
+\section*{DISCUSSION}
+\vspace{-3pt}
+\small{
+XXXX
+} %end of "\small{"
+
+% \begin{methods}
+% \vspace{-7pt}
+% \small{
+% \subsection{XXXX.}
+% } %end of "\small{"
+% \end{methods}
+
+%\pagebreak
+\section*{REFERENCES}
+\vspace{35pt}
+\scriptsize{
+
+\bibliography{References}
+%\pagebreak
+
+\vspace{5pt}
+\begin{addendum}
+\item[Supplementary Information] Supplementary Figures S1-4 and Table S1 are available in the online version of the paper.
+\item[Acknowledgments]
+SD is funded by the Fonds Wetenschappelijk Onderzoek (FWO, Flanders, Belgium).
+PL acknowledges support by the Special Research Fund, KU Leuven (`Bijzonder Onderzoeksfonds', KU Leuven, OT/14/115), and the Research Foundation -- Flanders (`Fonds voor Wetenschappelijk Onderzoek -- Vlaanderen', G066215N, G0D5117N and G0B9317N).
+PL and GB acknowledge funding from the European Community's Seventh Framework Programme (FP7/2007-2013) under Grant Agreement no. 278433-PREDEMICS.
+PL and MAS acknowledge funding from the European Research Council under the European Union's Horizon 2020 research and innovation programme (grant agreement no. 725422-ReservoirDOCS) and from the Wellcome Trust Collaborative Award, 206298/Z/17/Z.
+MAS acknowledges funding through National Science Foundation grant DMS1264153 and National Institutes of Health grant R01 LM012080.
+GB acknowledges support from the Interne Fondsen KU Leuven / Internal Funds KU Leuven.
+The computational resources and services used in this work were provided by the VSC (Flemish Supercomputer Center), funded by the Research Foundation - Flanders (FWO) and the Flemish Government - department EWI.
+%\item[Author Contributions]
+%S.D., G.B. and M.G. designed the study.
+%S.D. and G.B. performed the analysis.
+%M.A.S.~provided statistical guidance.
+%S.D. and XXXXX wrote the manuscript.
+%All authors discussed the results, edited and approved the contents of the manuscript.
+%The authors declare no competing financial interests.
+\end{addendum}
+} %end of "\scriptsize{"
+
+\end{document}
