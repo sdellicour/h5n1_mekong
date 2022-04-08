@@ -4,7 +4,7 @@ This repo gathers input files and scripts related to our study entitled "Incorpo
 
 The continuous phylogeographic method developed by Lemey *et al*. (2010) and implemented in the software BEAST (Drummond *et al*. 2012, Suchard *et al*. 2018) can be used to infer virus dispersal history in a continuous space. This method relies on the geographic coordinates associated with the sampling locations of virus sequences. Yet, frequently, only the more or less broad administrative area of origin of viral sequences is known (e.g. a broad administrative area "admin-1" or only the country of origin). The low precision of sampling locations can represent a notable limitation in the field of viral phylogeography. Indeed, when precise coordinates are unavailable for sampling locations, a common practice consists in either discarding the sequence or to take the centroid coordinates of the administrative area within which the sequence has been sampled. However, the latter option can be inappropriate because in many cases, taking the centroid coordinates can be irrelevant, e.g., regarding the very low or even unlikely probability that the sequence has been sampled around these coordinates. The present appendix describes the new method used to define smaller polygons within the overall administrative area, and to associate all these smaller "sub-polygons" with a distinct sampling probability. The generated collection of sub-polygons can then be specified in BEAST (Drummond *et al*. 2012, Suchard *et al*. 2018) to define the prior distribution of sampling coordinates associated with each sampled sequence. The idea behind this approach is to allow an appropriate use of virus sequences with low sampling precision in continuous phylogeographic reconstructions. The following approach thus proposes to include these sequences in the analysis but while using external information such as epidemiological records or host densities to specify a sampling probability assigned to some sub-polygons (admin-2 polygons) contained in the overall administrative area of origin (admin-1 polygon). We here describe how to use R to prepare such sub-polygons for the continuous phylogeographic analysis of the H5N1 clade 1 spread through the Mekong region. The data set is made of 214 RNA sequences (HA gene). While the admin-2 of origin is known for 109 of them, only the admin-1 polygon of origin if known for the remaining 105 sequences (see Figure 2 for the related sampling map of clade 1).
 
-** Step 1: installing and loading required R libraries
+# Step 1: installing and loading required R libraries
 ```R
 install.packages("ape"); library(ape)
 install.packages("rgdal"); library(rgdal)
@@ -12,7 +12,7 @@ install.packages("rgeos"); library(rgeos)
 install.packages("raster"); library(raster)
 ```
 
-** Step 2: loading admin-1 and admin-2 borders (shapefiles)
+# Step 2: loading admin-1 and admin-2 borders (shapefiles)
 ```R
 admin_1 = readOGR(dsn="./admin_shapefiles", layer="admin_1_Mekong")
 admin_2 = readOGR(dsn="./admin_shapefiles", layer="admin_2_Mekong")
@@ -22,7 +22,7 @@ In addition, we also have to load a one column table gathering the admin-1 ID of
 admin2_admin1ID = read.table("admin_shapefiles/Admin2_admin1ID.txt", header=T)
 ```
 
-** Step 3: reading sampling data associated with each sequence from a fasta alignment
+# Step 3: reading sampling data associated with each sequence from a fasta alignment
 ```R
 fasta = read.dna("H5N1_clade1.fasta", format="fasta")
 names = row.names(fasta)
@@ -42,7 +42,7 @@ for (i in 1:length(names)) {
 ```
 The "precisions" values indicate the precision level of the different sampling locations, i.e. if we know the admin-2 or only the admin-1 administrative area of origin.
 
-** Step 4: loading hosts (chicken and duck) density rasters
+# Step 4: loading hosts (chicken and duck) density rasters
 ```R
 chickens_density = raster("Mekong_rasters/Chickens_Mekong.asc")
 ducks_density = raster("Mekong_rasters/Ducks_Mekong.asc")
@@ -56,7 +56,7 @@ hosts[] = hosts[]+ducks_number[]
 ```
 Note that we here sum chicken and duck numbers to obtain an overall "host" number for each raster cell. Finally, we also log-transform resulting numbers in order to avoid providing an excessive importance to a few raster cells associated with high values.
 
-** Step 5: loading H5N1 occurrence records  
+# Step 5: loading H5N1 occurrence records  
 These annual records are stored in different "csv" files and can be read by the following loop:
 ```R
 records_all = c()
@@ -68,7 +68,7 @@ for (year in 2003:2012) {
 ```
 See also Figure S1 for a graphical representation of these yearly records.
 
-** Step 6: assigning a number of hosts to each admin-2 polygon
+# Step 6: assigning a number of hosts to each admin-2 polygon
 ```R
 hosts_counts = c()
 records_counts_list = list()
@@ -85,7 +85,7 @@ for (i in 1:length(admin_2@polygons)) {
 }
 ```
 
-** Step 7: assigning an annual number of H5N1 records to each admin-2 polygon
+# Step 7: assigning an annual number of H5N1 records to each admin-2 polygon
 ```R
 for (h in 2:length(records_list)) {
 	buffer = c()
@@ -106,7 +106,7 @@ for (h in 2:length(records_list)) {
 ```
 In this step, we thus create a list of H5N1 record values for each year between 2003 and 2014.  
 
-** Step 8: generating a collection of admin-2 polygons for each sampled sequence  
+# Step 8: generating a collection of admin-2 polygons for each sampled sequence  
 For sequences already assigned to an admin-2 polygon, the following script will simply generate a KML ("keyhole markup language") file specifying a single admin-2 polygon with an associated sampling probability equal to 1. While for sequences assigned to an admin-1 polygon, the script will generate a KML file specifying related admin-2 polygons each associated with a specific sampling probability (the sampling probabilities of the different admin-2 polygons contained in the admin-1 polygon summing to 1). If possible, the sampling probability assigned to each admin-2 polygon will be estimated according to the H5N1 outbreak records. In that case, the sampling probability assigned to an admin-2 polygon is simply the number of H5N1 outbreak records associated to this polygon and divided by the total number of H5N1 outbreak records in the admin-1 polygon. It is worth noting that to estimate these sampling probabilities we only consider H5N1 outbreak records for the sampling year of the considered sequence. When no annual H5N1 outbreak record is available for at least one of the admin-2 polygon, we can then use host incidence data (log-transformed host species numbers) to define the sampling probability to assign to these polygons. In the latter case, we follow the same logic as for H5N1 outbreak records, but this time defining the sampling probability as the ratio between log-transformed host species numbers in the admin-2 polygon and in the admin-1 polygon.
 ```R
 admins = list()
@@ -230,7 +230,7 @@ for (i in 1:dim(coordinates)[1]) {
 ```
 In the end, a distinct KML file is thus generated per sampling sequence and saved in a folder here named "H5N1_polygons". In this case, the name of each KML file is simply the accession number of the corresponding sampling sequence (but could, of course, be any ID found in the sequence name).
 
-** Step 9: generating a BEAST XML file based on a template file previously generated with BEAUti
+# Step 9: generating a BEAST XML file based on a template file previously generated with BEAUti
 This last step is optional as XML files can also be manually edited to add text parts linking the analysis to the different KML files generated above. As detailed in the resulting example file "H5N1_clade1.xml" available with this appendix, four new text blocks have to be added in the XML file to refer to these sampling polygons. For each sampled sequence: (i) a new "leafTraitParameter", (ii) a "flatGeoSpatialPrior" referencing the external KML file, and (iii) an "uniformGeoSpatialOperator" have to be added. In addition, "flatGeoSpatialPriors" have also to be listed in the operators section (see the content of the KML file for further details).
 ```R
 xml = scan(file="BEAST_template.xml", what="", sep="\n", quiet=T)
