@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
-	<polygon id="AB450554_1" 
-										   samplingProbability="0.179487179487179">
+	<polygon id="AB450554_1" samplingProbability="0.179487179487179">
 		<coordinates>
 			14.13256073,100.75669861,0
 			14.04236031,100.75710297,0
@@ -13,8 +12,7 @@
 			14.13256073,100.75669861,0
 		</coordinates>
 	</polygon>
-	<polygon id="AB450554_2" 
-										   samplingProbability="0.0256410256410256">
+	<polygon id="AB450554_2" samplingProbability="0.0256410256410256">
 		<coordinates>
 			13.95715046,100.91551971,0
 			13.94426155,100.91514587,0
@@ -25,8 +23,7 @@
 			13.95715046,100.91551971,0
 		</coordinates>
 	</polygon>
-	<polygon id="AB450554_3" 
-										   samplingProbability="0.358974358974359">
+	<polygon id="AB450554_3" samplingProbability="0.358974358974359">
 		<coordinates>
 			14.11399078,100.3966217,0
 			14.11290169,100.42324066,0
@@ -43,8 +40,7 @@
 			14.11399078,100.3966217,0
 		</coordinates>
 	</polygon>
-	<polygon id="AB450554_4" 
-										   samplingProbability="0.179487179487179">
+	<polygon id="AB450554_4" samplingProbability="0.179487179487179">
 		<coordinates>
 			14.04798031,100.59197998,0
 			13.94465065,100.60706329,0
@@ -62,8 +58,7 @@
 			14.04798031,100.59197998,0
 		</coordinates>
 	</polygon>
-	<polygon id="AB450554_5" 
-										   samplingProbability="0.0769230769230769">
+	<polygon id="AB450554_5" samplingProbability="0.0769230769230769">
 		<coordinates>
 			14.25048161,100.89280701,0
 			14.27198124,100.95289612,0
@@ -76,8 +71,7 @@
 			14.25048161,100.89280701,0
 		</coordinates>
 	</polygon>
-	<polygon id="AB450554_6" 
-										   samplingProbability="0.153846153846154">
+	<polygon id="AB450554_6" samplingProbability="0.153846153846154">
 		<coordinates>
 			14.11339188,100.54730988,0
 			14.1260004,100.58161163,0
@@ -91,8 +85,7 @@
 			14.11339188,100.54730988,0
 		</coordinates>
 	</polygon>
-	<polygon id="AB450554_7" 
-										   samplingProbability="0.0256410256410256">
+	<polygon id="AB450554_7" samplingProbability="0.0256410256410256">
 		<coordinates>
 			13.96364117,100.60997009,0
 			13.99433041,100.60221863,0

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
-	<polygon id="DQ236077_1" 
-										   samplingProbability="0.265625">
+	<polygon id="DQ236077_1" samplingProbability="0.265625">
 		<coordinates>
 			14.14591026,100.28336334,0
 			14.00799084,100.26641083,0
@@ -22,8 +21,7 @@
 			14.14591026,100.28336334,0
 		</coordinates>
 	</polygon>
-	<polygon id="DQ236077_2" 
-										   samplingProbability="0.234375">
+	<polygon id="DQ236077_2" samplingProbability="0.234375">
 		<coordinates>
 			14.0367403,100.1085434,0
 			13.96362972,100.10457611,0
@@ -40,8 +38,7 @@
 			14.0367403,100.1085434,0
 		</coordinates>
 	</polygon>
-	<polygon id="DQ236077_3" 
-										   samplingProbability="0.09375">
+	<polygon id="DQ236077_3" samplingProbability="0.09375">
 		<coordinates>
 			14.14087963,100.06659698,0
 			14.10197067,100.04094696,0
@@ -63,8 +60,7 @@
 			14.14087963,100.06659698,0
 		</coordinates>
 	</polygon>
-	<polygon id="DQ236077_4" 
-										   samplingProbability="0.140625">
+	<polygon id="DQ236077_4" samplingProbability="0.140625">
 		<coordinates>
 			13.93407154,99.95896912,0
 			13.89309025,100.03031921,0
@@ -88,8 +84,7 @@
 			13.93407154,99.95896912,0
 		</coordinates>
 	</polygon>
-	<polygon id="DQ236077_5" 
-										   samplingProbability="0.125">
+	<polygon id="DQ236077_5" samplingProbability="0.125">
 		<coordinates>
 			13.90120029,100.23072815,0
 			13.90433121,100.252388,0
@@ -105,8 +100,7 @@
 			13.90120029,100.23072815,0
 		</coordinates>
 	</polygon>
-	<polygon id="DQ236077_7" 
-										   samplingProbability="0.140625">
+	<polygon id="DQ236077_7" samplingProbability="0.140625">
 		<coordinates>
 			13.76753139,100.30236053,0
 			13.75323105,100.3324585,0

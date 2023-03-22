@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
-	<polygon id="EF112281_1" 
-										   samplingProbability="0.130434782608696">
+	<polygon id="EF112281_1" samplingProbability="0.130434782608696">
 		<coordinates>
 			16.17399979,100.0647583,0
 			16.15574074,100.09407806,0
@@ -28,8 +27,7 @@
 			16.17399979,100.0647583,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_2" 
-										   samplingProbability="0.0608695652173913">
+	<polygon id="EF112281_2" samplingProbability="0.0608695652173913">
 		<coordinates>
 			15.95854092,100.34107208,0
 			15.93857956,100.33193207,0
@@ -59,8 +57,7 @@
 			15.95854092,100.34107208,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_4" 
-										   samplingProbability="0.0260869565217391">
+	<polygon id="EF112281_4" samplingProbability="0.0260869565217391">
 		<coordinates>
 			15.56817055,99.49698639,0
 			15.56280136,99.47257233,0
@@ -86,8 +83,7 @@
 			15.56817055,99.49698639,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_5" 
-										   samplingProbability="0.0608695652173913">
+	<polygon id="EF112281_5" samplingProbability="0.0608695652173913">
 		<coordinates>
 			15.97126961,100.08777618,0
 			15.94477081,100.10746002,0
@@ -106,8 +102,7 @@
 			15.97126961,100.08777618,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_6" 
-										   samplingProbability="0.165217391304348">
+	<polygon id="EF112281_6" samplingProbability="0.165217391304348">
 		<coordinates>
 			15.67800045,99.99060822,0
 			15.66712189,100.05953979,0
@@ -125,8 +120,7 @@
 			15.67800045,99.99060822,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_7" 
-										   samplingProbability="0.0869565217391304">
+	<polygon id="EF112281_7" samplingProbability="0.0869565217391304">
 		<coordinates>
 			15.92193985,99.79464722,0
 			15.90161133,99.86054993,0
@@ -153,8 +147,7 @@
 			15.92193985,99.79464722,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_8" 
-										   samplingProbability="0.0695652173913043">
+	<polygon id="EF112281_8" samplingProbability="0.0695652173913043">
 		<coordinates>
 			15.94411182,99.21305084,0
 			15.89144135,99.29033661,0
@@ -183,8 +176,7 @@
 			15.94411182,99.21305084,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_9" 
-										   samplingProbability="0.0521739130434783">
+	<polygon id="EF112281_9" samplingProbability="0.0521739130434783">
 		<coordinates>
 			15.8468504,99.98036194,0
 			15.80598927,100.0718689,0
@@ -215,8 +207,7 @@
 			15.8468504,99.98036194,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_10" 
-										   samplingProbability="0.00869565217391304">
+	<polygon id="EF112281_10" samplingProbability="0.00869565217391304">
 		<coordinates>
 			15.99561119,100.77999878,0
 			15.92004204,100.76367188,0
@@ -244,8 +235,7 @@
 			15.99561119,100.77999878,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_11" 
-										   samplingProbability="0.00869565217391304">
+	<polygon id="EF112281_11" samplingProbability="0.00869565217391304">
 		<coordinates>
 			15.80593014,100.79827118,0
 			15.71164036,100.82035065,0
@@ -274,8 +264,7 @@
 			15.80593014,100.79827118,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_12" 
-										   samplingProbability="0.0434782608695652">
+	<polygon id="EF112281_12" samplingProbability="0.0434782608695652">
 		<coordinates>
 			15.63461018,100.25,0
 			15.63372135,100.27590179,0
@@ -304,8 +293,7 @@
 			15.63461018,100.25,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_13" 
-										   samplingProbability="0.0608695652173913">
+	<polygon id="EF112281_13" samplingProbability="0.0608695652173913">
 		<coordinates>
 			15.53497982,100.41744232,0
 			15.53223133,100.47273254,0
@@ -338,8 +326,7 @@
 			15.53497982,100.41744232,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_14" 
-										   samplingProbability="0.0608695652173913">
+	<polygon id="EF112281_14" samplingProbability="0.0608695652173913">
 		<coordinates>
 			15.45258045,100.3378067,0
 			15.40494061,100.37786865,0
@@ -371,8 +358,7 @@
 			15.45258045,100.3378067,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF112281_15" 
-										   samplingProbability="0.165217391304348">
+	<polygon id="EF112281_15" samplingProbability="0.165217391304348">
 		<coordinates>
 			15.83662128,100.44065857,0
 			15.83322144,100.4728775,0

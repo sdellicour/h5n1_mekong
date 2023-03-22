@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
-	<polygon id="EF178528_1" 
-										   samplingProbability="0.45">
+	<polygon id="EF178528_1" samplingProbability="0.45">
 		<coordinates>
 			13.66819191,100.93634796,0
 			13.66187191,100.9566803,0
@@ -22,8 +21,7 @@
 			13.66819191,100.93634796,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF178528_2" 
-										   samplingProbability="0.25">
+	<polygon id="EF178528_2" samplingProbability="0.25">
 		<coordinates>
 			13.71782017,100.72251129,0
 			13.71528053,100.78707123,0
@@ -40,8 +38,7 @@
 			13.71782017,100.72251129,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF178528_3" 
-										   samplingProbability="0.25">
+	<polygon id="EF178528_3" samplingProbability="0.25">
 		<coordinates>
 			13.57770061,100.83344269,0
 			13.56437969,100.82971191,0
@@ -55,8 +52,7 @@
 			13.57770061,100.83344269,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF178528_5" 
-										   samplingProbability="0.05">
+	<polygon id="EF178528_5" samplingProbability="0.05">
 		<coordinates>
 			13.66810989,100.58098602,0
 			13.65977097,100.59329987,0

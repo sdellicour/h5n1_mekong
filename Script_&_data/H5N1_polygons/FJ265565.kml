@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
-	<polygon id="FJ265565_1" 
-										   samplingProbability="0.134020618556701">
+	<polygon id="FJ265565_1" samplingProbability="0.134020618556701">
 		<coordinates>
 			16.15261269,100.39813995,0
 			16.12331963,100.42350769,0
@@ -23,8 +22,7 @@
 			16.15261269,100.39813995,0
 		</coordinates>
 	</polygon>
-	<polygon id="FJ265565_2" 
-										   samplingProbability="0.0721649484536082">
+	<polygon id="FJ265565_2" samplingProbability="0.0721649484536082">
 		<coordinates>
 			16.18363953,100.27513123,0
 			16.15598869,100.24800873,0
@@ -45,8 +43,7 @@
 			16.18363953,100.27513123,0
 		</coordinates>
 	</polygon>
-	<polygon id="FJ265565_3" 
-										   samplingProbability="0.0721649484536082">
+	<polygon id="FJ265565_3" samplingProbability="0.0721649484536082">
 		<coordinates>
 			15.93935108,100.56265259,0
 			15.9109602,100.52526855,0
@@ -61,8 +58,7 @@
 			15.93935108,100.56265259,0
 		</coordinates>
 	</polygon>
-	<polygon id="FJ265565_4" 
-										   samplingProbability="0.0309278350515464">
+	<polygon id="FJ265565_4" samplingProbability="0.0309278350515464">
 		<coordinates>
 			16.57624245,100.59941864,0
 			16.46686935,100.58525085,0
@@ -74,8 +70,7 @@
 			16.57624245,100.59941864,0
 		</coordinates>
 	</polygon>
-	<polygon id="FJ265565_5" 
-										   samplingProbability="0.319587628865979">
+	<polygon id="FJ265565_5" samplingProbability="0.319587628865979">
 		<coordinates>
 			16.53417969,100.37741852,0
 			16.50744057,100.42813873,0
@@ -102,8 +97,7 @@
 			16.53417969,100.37741852,0
 		</coordinates>
 	</polygon>
-	<polygon id="FJ265565_7" 
-										   samplingProbability="0.11340206185567">
+	<polygon id="FJ265565_7" samplingProbability="0.11340206185567">
 		<coordinates>
 			16.18488121,100.28701019,0
 			16.17419052,100.33188629,0
@@ -125,8 +119,7 @@
 			16.18488121,100.28701019,0
 		</coordinates>
 	</polygon>
-	<polygon id="FJ265565_8" 
-										   samplingProbability="0.0721649484536082">
+	<polygon id="FJ265565_8" samplingProbability="0.0721649484536082">
 		<coordinates>
 			16.64377022,100.21749115,0
 			16.62096024,100.23390961,0
@@ -155,8 +148,7 @@
 			16.64377022,100.21749115,0
 		</coordinates>
 	</polygon>
-	<polygon id="FJ265565_9" 
-										   samplingProbability="0.0824742268041237">
+	<polygon id="FJ265565_9" samplingProbability="0.0824742268041237">
 		<coordinates>
 			16.30288124,100.42674255,0
 			16.28937912,100.45922852,0
@@ -185,8 +177,7 @@
 			16.30288124,100.42674255,0
 		</coordinates>
 	</polygon>
-	<polygon id="FJ265565_10" 
-										   samplingProbability="0.0103092783505155">
+	<polygon id="FJ265565_10" samplingProbability="0.0103092783505155">
 		<coordinates>
 			16.32268906,100.65106964,0
 			16.29286957,100.65203094,0
@@ -209,8 +200,7 @@
 			16.32268906,100.65106964,0
 		</coordinates>
 	</polygon>
-	<polygon id="FJ265565_11" 
-										   samplingProbability="0.0824742268041237">
+	<polygon id="FJ265565_11" samplingProbability="0.0824742268041237">
 		<coordinates>
 			16.4503212,100.1775589,0
 			16.45319939,100.11180115,0
@@ -227,8 +217,7 @@
 			16.4503212,100.1775589,0
 		</coordinates>
 	</polygon>
-	<polygon id="FJ265565_12" 
-										   samplingProbability="0.0103092783505155">
+	<polygon id="FJ265565_12" samplingProbability="0.0103092783505155">
 		<coordinates>
 			16.46951294,100.58792877,0
 			16.38199043,100.60311127,0

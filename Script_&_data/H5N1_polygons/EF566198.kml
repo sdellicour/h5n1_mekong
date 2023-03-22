@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
-	<polygon id="EF566198_1" 
-										   samplingProbability="0.0454545454545455">
+	<polygon id="EF566198_1" samplingProbability="0.0454545454545455">
 		<coordinates>
 			22.79153061,103.6415329,0
 			22.68899155,103.74939728,0
@@ -29,8 +28,7 @@
 			22.79153061,103.6415329,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF566198_2" 
-										   samplingProbability="0.0909090909090909">
+	<polygon id="EF566198_2" samplingProbability="0.0909090909090909">
 		<coordinates>
 			22.67960167,104.38613892,0
 			22.67268372,104.40368652,0
@@ -66,8 +64,7 @@
 			22.67960167,104.38613892,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF566198_3" 
-										   samplingProbability="0.272727272727273">
+	<polygon id="EF566198_3" samplingProbability="0.272727272727273">
 		<coordinates>
 			22.5448761,104.03004456,0
 			22.52397156,104.05332947,0
@@ -96,8 +93,7 @@
 			22.5448761,104.03004456,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF566198_4" 
-										   samplingProbability="0.0454545454545455">
+	<polygon id="EF566198_4" samplingProbability="0.0454545454545455">
 		<coordinates>
 			22.49973106,104.44848633,0
 			22.48475838,104.47283173,0
@@ -144,8 +140,7 @@
 			22.49973106,104.44848633,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF566198_5" 
-										   samplingProbability="0.318181818181818">
+	<polygon id="EF566198_5" samplingProbability="0.318181818181818">
 		<coordinates>
 			22.50666237,103.96250153,0
 			22.51830101,104.00097656,0
@@ -165,8 +160,7 @@
 			22.50666237,103.96250153,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF566198_6" 
-										   samplingProbability="0.181818181818182">
+	<polygon id="EF566198_6" samplingProbability="0.181818181818182">
 		<coordinates>
 			22.83925247,104.24966431,0
 			22.83963966,104.27754974,0
@@ -190,8 +184,7 @@
 			22.83925247,104.24966431,0
 		</coordinates>
 	</polygon>
-	<polygon id="EF566198_8" 
-										   samplingProbability="0.0454545454545455">
+	<polygon id="EF566198_8" samplingProbability="0.0454545454545455">
 		<coordinates>
 			22.7402401,104.26883698,0
 			22.72083092,104.33611298,0

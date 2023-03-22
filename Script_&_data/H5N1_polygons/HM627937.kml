@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
-	<polygon id="HM627937_1" 
-										   samplingProbability="0.0181818181818182">
+	<polygon id="HM627937_1" samplingProbability="0.0181818181818182">
 		<coordinates>
 			14.67299175,100.51097107,0
 			14.66032028,100.51564026,0
@@ -13,8 +12,7 @@
 			14.67299175,100.51097107,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_2" 
-										   samplingProbability="0.0727272727272727">
+	<polygon id="HM627937_2" samplingProbability="0.0727272727272727">
 		<coordinates>
 			14.43878174,100.51181793,0
 			14.32944012,100.5151062,0
@@ -28,8 +26,7 @@
 			14.43878174,100.51181793,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_3" 
-										   samplingProbability="0.163636363636364">
+	<polygon id="HM627937_3" samplingProbability="0.163636363636364">
 		<coordinates>
 			14.3218298,100.63243866,0
 			14.29462242,100.68534851,0
@@ -46,8 +43,7 @@
 			14.3218298,100.63243866,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_4" 
-										   samplingProbability="0.0545454545454545">
+	<polygon id="HM627937_4" samplingProbability="0.0545454545454545">
 		<coordinates>
 			14.52525043,100.60095978,0
 			14.46632862,100.56484985,0
@@ -61,8 +57,7 @@
 			14.52525043,100.60095978,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_5" 
-										   samplingProbability="0.163636363636364">
+	<polygon id="HM627937_5" samplingProbability="0.163636363636364">
 		<coordinates>
 			14.31697083,100.50924683,0
 			14.28026104,100.52752686,0
@@ -78,8 +73,7 @@
 			14.31697083,100.50924683,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_6" 
-										   samplingProbability="0.181818181818182">
+	<polygon id="HM627937_6" samplingProbability="0.181818181818182">
 		<coordinates>
 			14.22428131,100.32800293,0
 			14.21397018,100.4080658,0
@@ -93,8 +87,7 @@
 			14.22428131,100.32800293,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_7" 
-										   samplingProbability="0.0181818181818182">
+	<polygon id="HM627937_7" samplingProbability="0.0181818181818182">
 		<coordinates>
 			14.61903191,100.53173828,0
 			14.62469101,100.58338928,0
@@ -111,8 +104,7 @@
 			14.61903191,100.53173828,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_8" 
-										   samplingProbability="0.0545454545454545">
+	<polygon id="HM627937_8" samplingProbability="0.0545454545454545">
 		<coordinates>
 			14.55286121,100.60549927,0
 			14.55330086,100.62493896,0
@@ -128,8 +120,7 @@
 			14.55286121,100.60549927,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_9" 
-										   samplingProbability="0.0181818181818182">
+	<polygon id="HM627937_9" samplingProbability="0.0181818181818182">
 		<coordinates>
 			14.49789143,100.73562622,0
 			14.48533058,100.74949646,0
@@ -147,8 +138,7 @@
 			14.49789143,100.73562622,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_10" 
-										   samplingProbability="0.0363636363636364">
+	<polygon id="HM627937_10" samplingProbability="0.0363636363636364">
 		<coordinates>
 			14.5090313,100.41004181,0
 			14.39763165,100.41841888,0
@@ -159,8 +149,7 @@
 			14.5090313,100.41004181,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_11" 
-										   samplingProbability="0.0545454545454545">
+	<polygon id="HM627937_11" samplingProbability="0.0545454545454545">
 		<coordinates>
 			14.40437126,100.53029633,0
 			14.39163113,100.61592865,0
@@ -176,8 +165,7 @@
 			14.40437126,100.53029633,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_12" 
-										   samplingProbability="0.109090909090909">
+	<polygon id="HM627937_12" samplingProbability="0.109090909090909">
 		<coordinates>
 			14.40147018,100.41439056,0
 			14.37310123,100.41657257,0
@@ -192,8 +180,7 @@
 			14.40147018,100.41439056,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_14" 
-										   samplingProbability="0.0363636363636364">
+	<polygon id="HM627937_14" samplingProbability="0.0363636363636364">
 		<coordinates>
 			14.41561031,100.66105652,0
 			14.40127182,100.66760254,0
@@ -210,8 +197,7 @@
 			14.41561031,100.66105652,0
 		</coordinates>
 	</polygon>
-	<polygon id="HM627937_15" 
-										   samplingProbability="0.0181818181818182">
+	<polygon id="HM627937_15" samplingProbability="0.0181818181818182">
 		<coordinates>
 			14.32829094,100.82285309,0
 			14.24264145,100.82534027,0

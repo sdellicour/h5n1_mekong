@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
-	<polygon id="AY651329_1" 
-										   samplingProbability="0.108695652173913">
+	<polygon id="AY651329_1" samplingProbability="0.108695652173913">
 		<coordinates>
 			17.82777023,99.99800873,0
 			17.79782295,100.06436157,0
@@ -29,8 +28,7 @@
 			17.82777023,99.99800873,0
 		</coordinates>
 	</polygon>
-	<polygon id="AY651329_2" 
-										   samplingProbability="0.217391304347826">
+	<polygon id="AY651329_2" samplingProbability="0.217391304347826">
 		<coordinates>
 			17.85557175,100.13893127,0
 			17.82438087,100.1529007,0
@@ -62,8 +60,7 @@
 			17.85557175,100.13893127,0
 		</coordinates>
 	</polygon>
-	<polygon id="AY651329_3" 
-										   samplingProbability="0.41304347826087">
+	<polygon id="AY651329_3" samplingProbability="0.41304347826087">
 		<coordinates>
 			17.43753052,100.06906891,0
 			17.40308952,100.12593079,0
@@ -95,8 +92,7 @@
 			17.43753052,100.06906891,0
 		</coordinates>
 	</polygon>
-	<polygon id="AY651329_5" 
-										   samplingProbability="0.0217391304347826">
+	<polygon id="AY651329_5" samplingProbability="0.0217391304347826">
 		<coordinates>
 			17.63240051,100.38349915,0
 			17.62098122,100.42124176,0
@@ -129,8 +125,7 @@
 			17.63240051,100.38349915,0
 		</coordinates>
 	</polygon>
-	<polygon id="AY651329_6" 
-										   samplingProbability="0.239130434782609">
+	<polygon id="AY651329_6" samplingProbability="0.239130434782609">
 		<coordinates>
 			17.54445076,100.17241669,0
 			17.4811306,100.18704987,0

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
-	<polygon id="HQ200554_1" 
-										   samplingProbability="1">
+	<polygon id="HQ200554_1" samplingProbability="1">
 		<coordinates>
 			10.90598011,104.65766144,0
 			10.87908173,104.68769073,0

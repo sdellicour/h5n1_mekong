@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.2">
-	<polygon id="AB450572_3" 
-										   samplingProbability="0.166666666666667">
+	<polygon id="AB450572_3" samplingProbability="0.166666666666667">
 		<coordinates>
 			14.86096191,102.85993958,0
 			14.82417202,102.87754822,0
@@ -20,8 +19,7 @@
 			14.86096191,102.85993958,0
 		</coordinates>
 	</polygon>
-	<polygon id="AB450572_10" 
-										   samplingProbability="0.166666666666667">
+	<polygon id="AB450572_10" samplingProbability="0.166666666666667">
 		<coordinates>
 			15.14111137,103.09303284,0
 			15.13529015,103.12761688,0
@@ -50,8 +48,7 @@
 			15.14111137,103.09303284,0
 		</coordinates>
 	</polygon>
-	<polygon id="AB450572_12" 
-										   samplingProbability="0.5">
+	<polygon id="AB450572_12" samplingProbability="0.5">
 		<coordinates>
 			14.71273994,102.94779968,0
 			14.67840099,102.95160675,0
@@ -81,8 +78,7 @@
 			14.71273994,102.94779968,0
 		</coordinates>
 	</polygon>
-	<polygon id="AB450572_20" 
-										   samplingProbability="0.166666666666667">
+	<polygon id="AB450572_20" samplingProbability="0.166666666666667">
 		<coordinates>
 			14.82651043,103.0699234,0
 			14.8196907,103.08518982,0
